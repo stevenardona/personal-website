@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven's Cool Website</title>
+    <link rel="icon" href="kanghaerin.jpg">
+</head>
+<body>
+    <div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">Contact</a>
+        </nav>
+    </div>
+    <div class="about" id="about">
+        <h2>About</h2>
+        <p>Hey I'm Steven. I study a <b>Bachelor of Computer Science</b> at Monash University.</p>
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-19/428588762_269538329508930_6548298041893667258_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent.cdninstagram.com&_nc_cat=106&_nc_ohc=VYBxLZsqwccAX_ddEfC&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfBFdU_U8sDP_si4UZkJg-bzwcN3U3EjcD5uts_dLVy1Ng&oe=65F05276&_nc_sid=10d13b" alt="Me">
+    </div>
+    <div class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+            <h3>Project 1: None at the moment</h3>
+            <p><i>To be filled at a later time!</i></p>
+            <a href="https://google.com">
+                <button>View my project</button>
+
+            </a>
+
+        </div>
+        <div>
+            <h3>Project 2: None at the moment</h3>
+            <p><i>To be filled at a later time!</i></p>
+            <a href="https://google.com">
+                <button>View my project</button>
+
+            </a>
+
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ol>
+            <li>Python</li>
+            <li>HTML sort of</li>
+        </ol>
+
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Communication</li>
+            <li>Public Speaking</li>
+        </ul>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <form action="/submit-contact" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" email="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea type="message" id="messsage" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    <div>
+        <footer>
+            <p>&copy; 2024 Steven A. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
